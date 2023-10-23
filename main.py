@@ -4,7 +4,7 @@ from steam.steamid import SteamID
 user=SteamID.from_url('https://steamcommunity.com/id/Furnishings`d/')
 
 from steam.webapi import WebAPI
-api = WebAPI(key="45D432B97842C610AD4E38ABC4832B3B")
+api = WebAPI(key="") #insert personal API key here
 
 import requests as req
 
